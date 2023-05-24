@@ -35,7 +35,7 @@ function App() {
 				selectedPage={selectedPage}
 				setSelectedPage={setSelectedPage}
 			/>
-			<div className="w-5/6 mx-auto md:h-full">
+			{/* <div className="w-5/6 mx-auto md:h-full">
 				{isDesktop && (
 					<DotGroup
 						selectedPage={selectedPage}
@@ -49,9 +49,9 @@ function App() {
 				>
 					<Landing setSelectedPage={setSelectedPage} />
 				</motion.div>
-			</div>
+			</div> */}
 			<LineGradient />
-			<div className="w-5/6 mx-auto md:h-full ">
+			{/* <div className="w-5/6 mx-auto md:h-full ">
 				<motion.div
 					margin="0 0 -200px 0"
 					amount="all"
@@ -59,9 +59,9 @@ function App() {
 				>
 					<MySkills />
 				</motion.div>
-			</div>
+			</div> */}
 			<LineGradient />
-			<div className="w-5/6 mx-auto">
+			{/* <div className="w-5/6 mx-auto">
 				<motion.div
 					margin="0 0 -200px 0"
 					amount="all"
@@ -69,9 +69,9 @@ function App() {
 				>
 					<Projects />
 				</motion.div>
-			</div>
+			</div> */}
 			<LineGradient />
-			<div className="w-5/6 mx-auto md:h-full">
+			{/* <div className="w-5/6 mx-auto md:h-full">
 				<motion.div
 					margin="0 0 -200px 0"
 					amount="all"
@@ -79,9 +79,9 @@ function App() {
 				>
 					<Testimonials />
 				</motion.div>
-			</div>
+			</div> */}
 			<LineGradient />
-			<div className="w-5/6 mx-auto md:h-full">
+			{/* <div className="w-5/6 mx-auto md:h-full">
 				<motion.div
 					margin="0 0 -200px 0"
 					amount="all"
@@ -89,7 +89,7 @@ function App() {
 				>
 					<Contact />
 				</motion.div>
-			</div>
+			</div> */}
 			<Footer />
 		</div>
 	);
